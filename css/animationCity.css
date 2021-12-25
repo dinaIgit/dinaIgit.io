@@ -1,0 +1,48 @@
+/* Animation City */
+.content-home{
+    background: url(./../img/cityBG.png) no-repeat; 
+    background-size: cover;
+}
+
+.city{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 46.25%;
+    height: 0;
+    top: -100px;
+    _z-index: 1;
+    _border: 1px solid black;
+}
+.city img{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+}
+.globous{
+    position: relative; 
+}
+.globous img{
+    width: 100%;
+    animation: rotate 30s infinite linear; 
+}
+.auto{
+    width: 120%;
+    position: absolute;
+    top: 55px;
+    z-index: 999;
+    _border: 1px solid black;
+}
+.auto img{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+@keyframes rotate {
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(359deg);}
+}

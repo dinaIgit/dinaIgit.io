@@ -1,0 +1,175 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+.center-picture{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.portfolio-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    _border: 1px solid black;
+}
+.graphic{
+    width: 30%;
+    _border: 1px solid black;
+}
+.graphic img, .indesign img, .webDesign img{
+    width: 350px;
+}
+.graphic h3, .indesign h3, .webDesign h3 {
+    color: cadetblue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.album{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 0 0 0 100px;
+    _border: 1px solid black;
+}
+.album h2, .slider h3, .sites h3, .center-picture h2{
+    color: cadetblue;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.album img:hover, .row-web img:hover{
+    animation: pulse 2s; 
+}
+.album #vlightbox1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.column{
+    width: 100%;
+    _flex: 50%;
+    _padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    _overflow:  hidden;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.big{
+    width: 100%;
+    height: 100%;
+    display: flex;   
+    _border: 1px solid black;
+}
+.big img{
+    width: 100%;
+    padding: 0 5px;
+}
+.small{
+    _margin: 5px;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    _justify-content: space-between;
+    _border: 1px solid black;
+}
+.small img{
+    width: 50%;
+    _height: 40%;
+    padding:0 10px;
+    _display: flex;
+}
+.small-a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.small-a img{
+    width: 91%;
+}
+
+.midi{
+    display: flex;
+    flex-direction: column;
+}
+.midi img{
+    width: 60%;
+}
+.small-midi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+}
+.small-midi img{
+    width: 95%;    
+}
+.middle{
+    width: 30%;
+    _border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.middle img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    _border: 1px solid black;
+}
+.slider{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.line{
+    width: 100%;
+    height: 25px;
+    background-color: #ecf6f9;
+}
+
+.transition{
+    animation: 3s show;
+}
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+@media screen and (max-width: 1380px){
+    .graphic img, .indesign img, .webDesign img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .graphic img, .indesign img, .webDesign img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .graphic img, .indesign img, .webDesign img{
+        width: 200px;
+    }
+}
