@@ -1,9 +1,10 @@
 .content-projects{
-width: 100%;
+width: 120%;
 height: 100%;
 _border: 1px solid black;
 }
 .row-project{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
