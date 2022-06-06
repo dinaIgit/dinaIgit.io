@@ -103,4 +103,3 @@ function changeInfo(message){
 btn.addEventListener('click', start);
 checkBtn.addEventListener('click', play);
 againBtn.addEventListener('click', start);
-
