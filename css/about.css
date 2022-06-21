@@ -116,9 +116,12 @@ strong {
 
 .me img {
     margin: 0 auto;
-    margin-top: -35px;
+    margin-top: -15px;
+    margin-bottom: 35px;
     width: 350px;
-    _border: 1px solid black;
+    border: 2px solid rgba(255, 255, 255, 0.59);
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(187, 187, 187, 0.295);
     z-index: 1;
 }
 
@@ -126,7 +129,8 @@ strong {
     width: 320px;
     height: 180px;
     background-color: rgba(240, 248, 255, 0.74);
-    _border: 1px solid rgba(0, 0, 0, 0.253);
+    border: 2px solid rgba(255, 255, 255, 0.598);
+    border-radius: 5px;
     margin: 0 10px;
     box-shadow: 5px 10px 15px rgba(187, 187, 187, 0.295);
 }
