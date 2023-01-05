@@ -1,55 +1,367 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>My portfolio</title>
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/animationCity.css">
-	<link rel="stylesheet" href="./css/navbar.css">
-	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/><link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> 
+
 </head>
 <body>
+	<div class="wrapper">
+<header class="header">
+    <div class="header__container">
 
-<div class="content content-home">
-	<div class="header">	
-			<div class="navbar">
-			<a href="./index.html">Home</a>	
-			<a href="./about.html">About me</a>	       
-			<div class="subnav">
-				<button class="subnavbtn">Portfolio ▿</button>
-				<div class="subnav-content">
-					<a href="./graphich.html">GraphicDesign</a>
-					<a href="./indesign.html">InDesign</a>
-					<a href="./webdesign.html">WebDesign</a>
-					<a href="./presentation.html">Presentation</a>
-					<a href="./projects.html">Projects</a>
+        <div class="header__menu">
+            <div class="menu__icon">
+                <span></span>
+                
+            </div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a data-goto=".page__section_1" href="index.html" class="menu__link">home</a></li>
+                    <li><a data-goto=".page__section_2" href="index.html#about" class="menu__link">about</a></li>
+                    <li><a data-goto=".page__section_3" href="index.html#portfolio" class="menu__link">portfolio</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                            <li>
+                                <a href="graphicdesign.html" class="menu__sub-link">GraphicDesign</a>
+                            </li>
+                            <li>
+                                <a href="indesign.html" class="menu__sub-link">InDesign</a>
+                            </li>
+                            <li>
+                                <a href="webdesign.html" class="menu__sub-link">WebDesign</a>
+                            </li>
+                            <li>
+                                <a href="projects.html" class="menu__sub-link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="presentations.html" class="menu__sub-link">Presentations</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a data-goto=".page__section_4" href="index.html#games" class="menu__link">games</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                            <li>
+                                <a href="gamenumber.html" class="menu__sub-link">Guess the number</a>
+                            </li>
+                            <li>
+                                <a href="gameword.html" class="menu__sub-link">Guess the word</a>
+                            </li>
+                            <li>
+                                <a href="minesweeper.html" class="menu__sub-link">Minesweeper</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>        <a href="mailto: dingrafikweb@gmail.com" class="header__mail">Contact me <span class="material-symbols-outlined">
+                        mail
+                        </span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>	<main class="page">
+		<section class="page__section page__section_1">
+<div class="page__home">
+  <div class="home">
+    <div class="wrapper">
+			<div class="parallax">
+				<div class="parallax__body">
+					<div class="parallax__container _container">
+						<div class="parallax__label">This is my online games collection and</div>
+						<h1 class="parallax__title">Portfolio</h1>
+					</div>
+					<div class="parallax__images images-parallax">
+						<div class="images-parallax__item">
+							<div class="images-parallax__clouds"></div>
+						</div>££
+						<div class="images-parallax__item">
+							<div class="images-parallax__city"></div>
+						</div>
+						<div class="images-parallax__item">
+							<div class="images-parallax__cityColor"></div>
+						</div>
+						<div class="images-parallax__item">
+							<div class="images-parallax__human"></div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="subnav">
-				<button class="subnavbtn">Games ▿</button>
-				<div class="subnav-content">
-					<a href="./guess.html">Guess the number</a>
-					<a href="./word.html">Guess the word</a>
-					<a href="./game.html">Minesweeper</a>
-				</div>
-			</div>
-			</div>		
-	</div>
-
-	<div class="center-home center-home-bottom">
-		<h1>Welcome to my website!</h1>
-		<div class="box_text">
-			<p><b>This is my online games collection and portfolio</b> <br> My name is Dinara. <br> I am a <b>Front-end Developer</b>. This is my website and here you can play online games, as well as look at my work on graphic design and web sites. <br> Enjoy your time! </p>
-		</div>		
-		<div class="city" id="div-city">
-			<div class="auto"><img src="./img/autoMitMich.png" alt="auto">
-			</div>
-			<div class="globous"><img src="./img/globus.png" alt="globous"></div>
-		</div>		
-	</div>
+  </div>
 </div>
+		</section>
+		<section class="page__section page__section_2">
+      <a name="about"></a>
+<div class="page__about content">
+  <div class="about__content">
+    <h2>About Me</h2>
+    <div class="text-aboutMe">
+      <div class="aboutTextEng" id="enText">
+        <div class="textBox" id="enText">
+          <h3> My name is Dinara.</h3>
+          <p>I would like to shortly tell about myself:</p>
+          <p><b>2003 </b> was the first year of my acquaintance with computer. I got so interested and
+            decided to keep on learning it. I have done courses on graphic design and started to work in
+            this direction. I have created design for ad brochures, invitations and even restored old
+            photos. I have once taken part in creating illustrations for a kids' book. <br><br>
+            In <b>2015</b> I finished courses on web-design. I really liked doing it but I lacked some
+            professional knowledge in the area for full-fledged work in web-design.</p>
+          <p>In <b>2017</b> I started studying system-integration . I learned a lot about internet systems
+            and contents though at that time I couldn't fully cover the topic of programming.</p>
+          <p>Finally in <b>2020</b> (it was a significant year for the whole world!) I found courses on
+            programming where I finally learned Backend and Frontend development! <br>
+            I created this website using all my knowledge in graphic design, web-development, and
+            programming. <br>
+            I invite you to take a look at my works and play the games on my website! <br>
+            Nice meeting you!</p>
+          <button class="button" id="back"><span>Back</span> </button>
+        </div>
+      </div>
+      <div class="aboutTextDe">
+        <div class="textBox" id="deText">
+          <h3> Ich heiße Dinara</h3>
+          <p>Über mich: <br>
+            Im Jahr <b>2003</b> habe ich zum ersten mal den Computer entdeckt. Es hat mein Interesse
+            geweckt und so hat alles angefangen.
+            Ich beendete Grafikdesign Kurse und arbeitete in dem Bereich: <br>
+            Ich erstellte Werbungbröschüren, Einladekarten und restaurierte alte Fotografien.
+            Ebenfalls nahm ich an einer Erstellung eines Illustrationsbuches teil.
+            <br>
+          </p>
+          <p>
+            In <b>2015</b> habe ich Webdesign Kurse absolviert. Es hat mir gefallen, aber ich besaß
+            ungenügend Wissen im Webprogammieren für eine vollständige Arbeit im WebDesign.
+            <br>
+          </p>
+          <p>
+            In <b>2017</b> lerne ich als Fachinformatikerin (Systemintegration) viel über Netzwerk
+            Verbindungen, die zum Internet System Netzwerk gehören. Programmieren war jedoch immer noch
+            außerhalb meiner Kenntnisse.
+            <br>
+          </p>
+          <p>
+            Endlich fand ich Programmierkurse in <b>2020</b>, wo ich Backend und Frontend kennenlernen
+            durfte.
+            Diese Website habe ich mit allen meinen grafikdesignerischen, web- und programmierenden
+            Wissensgrundlagen erstellt.
+            <br>
+          </p>
+          <p>
+            Ich lade Sie herzlich ein meine Arbeiten anzuschauen und die Spiele auf meiner Seite zu
+            spielen!
+            <br>
+          </p>
+          <p>
+            Viel Spaß!.
+          </p>
+          <button class="button" id="backTwo"><span>Back</span> </button>
+        </div>
+      </div>
+      <div class="aboutTextRu">
+        <div class="textBox" id="ruText">
+          <h3>Привет! Меня зовут Динара. </h3>
+          <p>Расскажу немного о себе: <br>
+          </p>
+          <p>В <b>2003</b> году я впервые познакомилась с компьютером, мне стало интересно и я пошла
+            дальше. Я закончила курсы график-дизайна и начала работать в этом направлении: разрабатывала
+            дизайн рекламных брошюрок, пригласительных, а так же занималась реставрацией старых
+            фотографий. Участвовала в разработке иллюстраций детской книжки.<br>
+          </p>
+          <p>В <b>2015</b> году закончила курсы веб-дизайна. Мне понравилось работать в этом направлении,
+            но мне недоставало знаний в области веб-программирования для полноценной работы в webDesign.
+            <br>
+          </p>
+          <p>
+            В <b>2017</b> году я пошла учиться на Fachinformatikerin (Systemintegration). Получила много
+            знаний, касающихся системы интернет-соединений, но программирование так и осталось за бортом
+            моих знаний!
+          </p>
+          <p>
+            Наконец в <b>2020</b> году (знаменательном году для всего мира!!!) я нашла курсы
+            программирования, где изучила Backend и Frontend разработку!
+            Этот сайт я создала, собрав все мои знания по графическому дизайну, веб-разработки и
+            программированию.
+            <br>
+          </p>
+          <p>
+            Приглашаю вас посмотреть мои работы и поиграть в игры на моем сайте!
+            <br>
+          </p>
+          <p>
+            Приятного вам времяпровождения!</p>
+          <button class="button" id="backAbout"><span>Back</span> </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-aboutMe">
+      <h5>Click on the Button</h5>
+      <div class="clickMe">
+        <div class="btn">
+          <button class="button" id="en-btn">
+            <span>Eng</span></button>
+        </div>
+        <div class="btn">
+          <button class="button" id="de-btn">
+            <span>De</span></button>
+        </div>
+        <div class="btn">
+          <button class="button" id="ru-btn">
+            <span>Ru</span></button>
+        </div>
+      </div>
+
+    </div>
+  <div class="page__agency">
+    <div class="wallBoard">
+    </div>
+    <div class="shelf" id="shelf">
+    </div>
+    <div class="table" id="table">
+    </div>
+    <div class="wallClock" id="wallClock">
+    </div>
+    <div class="cupboard" id="cupboard">
+    </div>
+    <div class="chair" id="chair">
+    </div>
+    <div class="folderGreen" id="folderGreen">
+    </div>
+    <div class="folderRed" id="folderRed"></div>
+    <div class="folderGrey" id="folderGrey"></div>
+
+  </div>  
+  </div>  
+</div>		</section>
+		<section class="page__section page__section_3">
+      <a name="portfolio"></a>
+<div class="page__portfolio">
+  <a name="up"></a>
+  <div class="portfolio__title">
+    <h2>Portfolio</h2>
+  </div>
+  <div class="portfolio__text">
+    <p>I present you my graphic works made in Adobe Photoshop, Illustrator and other programs as well as my projects and presentations.</p>
+  </div>
+  <div class="portfolio__content">
+    <div class="portfolio__cards">
+      <div class="card__box">
+        <a href="graphicdesign.html">
+          <!-- <img src="img/graphicDesign.png" alt="icon"> -->
+          <span class="material-symbols-outlined">
+            draw
+            </span>
+          <h4>GraphicDesign</h4>
+        </a>
+      </div>
+      <div class="card__box">
+        <a href="indesign.html"><!-- <img src="img/inDesign.png" alt="icon"> -->
+          <span class="material-symbols-outlined">
+            design_services
+            </span>
+          <h4>InDesign</h4>
+        </a>
+      </div>
+      <div class="card__box">
+        <a href="webdesign.html"><!-- <img src="img/webDesign.png" alt="icon"> -->
+          <span class="material-symbols-outlined">
+            settings_ethernet
+            </span>
+          <h4>WebDesign</h4>
+        </a>
+      </div>
+      <div class="card__box">
+        <a href="projects.html"><!-- <img src="img/projects.png" alt="icon"> -->
+          <span class="material-symbols-outlined">
+            cognition
+            </span>
+          <h4>Projects</h4>
+        </a>
+      </div>
+      <div class="card__box">
+        <a href="presentations.html"><!-- <img src="img/presentation.png" alt="icon"> -->
+          <span class="material-symbols-outlined">
+            co_present
+            </span>
+          <h4>Presentation</h4>
+        </a>
+      </div>
+    </div>  
+  </div>
+  <div class="separator">
+    <span class="material-symbols-outlined">
+      <a href="#up">arrow_circle_up</a></span>
+  </div>
+</div>		</section>
+		<section class="page__section page__section_4">
+      <a name="games"></a>
+<div class="page__games">
+  <div class="games__title">
+    <h2>Games</h2>
+  </div>
+  <div class="games__text">
+    <p>Choose a game and play. Enjoy your time! Good luck!</p>
+  </div>
+
+  <div class="games__content">
+    <div class="games__items">
+      <div class="game__item">
+        <img src="img/gameNumber.png" alt="icon">
+        <a href="gamenumber.html"><div class="item-content">
+          <h3>Guess the number</h3>
+          <p>Game</p>
+        </div></a>
+      </div>
+      <div class="game__item">
+        <img src="img/gameWord.png" alt="icon">
+        <a href="gameword.html"><div class="item-content">
+          <h3>Guess the word</h3>
+          <p>Game</p>
+        </div></a>
+      </div>
+      <div class="game__item">
+        <img src="img/game3.png" alt="icon">
+        <a href="minesweeper.html"><div class="item-content"><br>
+          <h3>MineSweeper</h3>
+          <p>Game</p>
+        </div></a>
+      </div>
+    </div>
+  </div>
+  <div class="game__animation">
+    <div class="loop-wrapper">
+      <div class="mountain"></div>
+      <div class="hill"></div>
+      <div class="tree"></div>
+      <div class="tree"></div>
+      <div class="tree"></div>
+      <div class="rock"></div>
+      <div class="truck"></div>
+      <div class="wheels"></div>
+    </div>
+  </div>
+</div>		</section>
+<footer>
 <div class="footer">
-	<p>Copyright &copy; Dinara</p><p>2021</p> 
-</div>
+  <p>Copyright © DinIsk</p>
+  <p>2022</p>
+</div></footer>
+	</main>
+	</div>
+
+  <script src="js/script.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/about.js"></script>
+	<script src="js/scrolling.js"></script>
+	<script src="js/rellax.min.js"></script>
 </body>
 </html>

@@ -1,59 +1,51 @@
-const textEng=document.querySelector('.aboutTextEng'),
-        textDe=document.querySelector('.aboutTextDe'),
-        textRu=document.querySelector('.aboutTextRu'),
-        deBtnClick=document.querySelector('#de-btn'),
-        ruBtnClick=document.querySelector('#ru-btn'),
-        enBtnClick=document.querySelector('#en-btn'),
-        btnBack=document.querySelector('#back'),
-        myPhoto=document.querySelector('.my-photo'),
-        text=document.querySelector('.aboutText'),
-        btnBackDe=document.querySelector('#backTwo'),
-        btnBackRu=document.querySelector('#backAbout');
 
-
-deBtnClick.onclick=function(){
-    show(textDe)
-    hide(myPhoto)
-}
+const textEng=document.getElementById('enText'),
+      textDe=document.querySelector('.aboutTextDe'),
+      textRu=document.querySelector('.aboutTextRu'),
+      deBtnClick=document.getElementById('de-btn'),
+      ruBtnClick=document.getElementById('ru-btn'),
+      enBtnClick=document.getElementById('en-btn'),
+      btnBack=document.getElementById('back'),
+      myPhoto=document.querySelector('.btn-aboutMe'),
+      btnBackDe=document.getElementById('backTwo'),
+      btnBackRu=document.getElementById('backAbout');
 
 enBtnClick.onclick=function(){
-    show(textEng)
-    hide(myPhoto)
+  show(textEng)
+}
+
+deBtnClick.onclick=function(){
+  show(textDe)
 }
 
 ruBtnClick.onclick=function(){
-    show(textRu)
-    hide(myPhoto)
+  show(textRu)
 }
 btnBack.onclick=function(){
-    hide(textEng)
-    hide(textDe)
-    hide(textRu)
-    show(myPhoto)
+  hide(textEng)
+  hide(textDe)
+  hide(textRu)
 }
 btnBackDe.onclick=function(){
-    hide(textEng)
-    hide(textDe)
-    hide(textRu)
-    show(myPhoto)
+  hide(textEng)
+  hide(textDe)
+  hide(textRu)
 }
 btnBackRu.onclick=function(){
-    hide(textEng)
-    hide(textDe)
-    hide(textRu)
-    show(myPhoto)
+  hide(textEng)
+  hide(textDe)
+  hide(textRu)
 }
 
 function hide(element) {
-    element.style.display = "none"
+  element.style.display = "none"
 }
-        
+
 function show(element) {
-    element.style.display = "block";
-    element.classList.add('transition');
+  element.style.display = "block";
+  element.classList.add('transition');
 }
 
 function back(element){
-    element
+  element
 }
-

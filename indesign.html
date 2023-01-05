@@ -1,143 +1,249 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>InDesign</title>
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/animationCity.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/picture.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@200&display=swap"
-        rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	<link rel="stylesheet" type="text/css" href="./indesignImg/engine1/style.css" />
-	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InDesign</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/><link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> 
 </head>
 <body>
+  <div class="wrapper">
+<header class="header">
+    <div class="header__container">
 
-<div class="content">
-	<div class="header">
-        <div class="navbar">
-        <a href="./index.html">Home</a>	
-        <a href="./about.html">About me</a>	       
-        <div class="subnav">
-            <button class="subnavbtn">Portfolio ▿</button>
-            <div class="subnav-content">
-                <a href="./graphich.html">GraphicDesign</a>
-                <a href="./indesign.html">InDesign</a>
-                <a href="./webdesign.html">WebDesign</a>
-                <a href="./presentation.html">Presentation</a>
-				<a href="./projects.html">Projects</a>
+        <div class="header__menu">
+            <div class="menu__icon">
+                <span></span>
+                
             </div>
-        </div>
-        <div class="subnav">
-            <button class="subnavbtn">Games ▿</button>
-            <div class="subnav-content">
-                <a href="./guess.html">Guess the number</a>
-                <a href="./word.html">Guess the word</a>
-                <a href="./game.html">Minesweeper</a>
-            </div>
-        </div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a data-goto=".page__section_1" href="index.html" class="menu__link">home</a></li>
+                    <li><a data-goto=".page__section_2" href="index.html#about" class="menu__link">about</a></li>
+                    <li><a data-goto=".page__section_3" href="index.html#portfolio" class="menu__link">portfolio</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                            <li>
+                                <a href="graphicdesign.html" class="menu__sub-link">GraphicDesign</a>
+                            </li>
+                            <li>
+                                <a href="indesign.html" class="menu__sub-link">InDesign</a>
+                            </li>
+                            <li>
+                                <a href="webdesign.html" class="menu__sub-link">WebDesign</a>
+                            </li>
+                            <li>
+                                <a href="projects.html" class="menu__sub-link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="presentations.html" class="menu__sub-link">Presentations</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a data-goto=".page__section_4" href="index.html#games" class="menu__link">games</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                            <li>
+                                <a href="gamenumber.html" class="menu__sub-link">Guess the number</a>
+                            </li>
+                            <li>
+                                <a href="gameword.html" class="menu__sub-link">Guess the word</a>
+                            </li>
+                            <li>
+                                <a href="minesweeper.html" class="menu__sub-link">Minesweeper</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>        <a href="mailto: dingrafikweb@gmail.com" class="header__mail">Contact me <span class="material-symbols-outlined">
+                        mail
+                        </span></a></li>
+                </ul>
+            </nav>
         </div>
     </div>
+</header><main class="page">
+<section class="page__indesign">
+<div class="indesign__content">
+  <div class="indesign__title">
+    <h2>InDesign</h2>
+    <p>Here I present to you a few pages from each of my works. </p>
+  </div>
+<div class="slide-show">
+  <div class="slider">
+    <div class="slide">
+          <img src="img/indesignImg/01.jpg" title="Vereinigtes Königreich - Geschichte" alt="Photo1"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div>
+    <div class="slide">
+          <img src="img/indesignImg/02.jpg" alt="Photo2"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/03.jpg" alt="Photo3"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div>
+    <div class="slide">
+          <img src="img/indesignImg/04.jpg" alt="Photo4"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/05.jpg" alt="Photo5"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/06.jpg" alt="Photo6"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/07.jpg" alt="Photo7"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/08.jpg" alt="Photo8"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/09.jpg" alt="Photo9"/>
+          <span>Vereinigtes Königreich - Geschichte</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/10.jpg" alt="Photo10"/>
+          <span>Berliner Westhafen - klein Bild-Exkursion</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/11.jpg" alt="Photo11"/>
+          <span>Berliner Westhafen - klein Bild-Exkursion</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/12.jpg" alt="Photo12"/>
+          <span>Berliner Westhafen - klein Bild-Exkursion</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/13.jpg" alt="Photo13"/>
+          <span>Berliner Westhafen - klein Bild-Exkursion</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/14.jpg" alt="Photo14"/>
+          <span>Berliner Westhafen - klein Bild-Exkursion</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/15.jpg" alt="Photo15"/>
+          <span>Berliner Westhafen - klein Bild-Exkursion</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/16.jpg" alt="Photo16"/>
+          <span>Kalorientabelle Obstkonserven</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/17.jpg" alt="Photo17"/>
+          <span>Obstsorten - Seitenweise</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/18.jpg" alt="Photo18"/>
+          <span>Obstsorten - Seitenweise</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/18a.jpg" alt="Photo18"/>
+          <span>Obstsorten - Seitenweise</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/19.jpg" alt="Photo19"/>
+          <span>Obstsorten - Seitenweise</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/19a.jpg" alt="Photo19"/>
+          <span>Obstsorten - Seitenweise</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/20.jpg" alt="Photo20"/>
+          <span>Haustiere</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/21.jpg" alt="Photo21"/>
+          <span>Brochure about Canada</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/22.jpg" alt="Photo22"/>
+          <span>Brochure about Canada</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/22a.jpg" alt="Photo22a"/>
+          <span>Brochure about Canada</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/23.jpg" alt="Photo23"/>
+          <span>Küstenwelt - Abenteuerliche Küsten</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/24.jpg" alt="Photo24"/>
+          <span>Küstenwelt - Abenteuerliche Küsten</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/25.jpg" alt="Photo25"/>
+          <span>Küstenwelt - Abenteuerliche Küsten</span>
+      </div> 
+    <div class="slide">
+          <img src="img/indesignImg/26.jpg" alt="Photo26"/>
+          <span>Küstenwelt - Abenteuerliche Küsten</span>
+      </div>
+      <div class="slide">
+        <img src="img/indesignImg/27.jpg" alt="Photo27"/>
+        <span>Küstenwelt - Abenteuerliche Küsten</span>
+    </div> 
 
-	<div class="center">
-        <div class="slider">
-			<h3>InDesign</h3>
-			<!-- Start bookSlider -->
-			<div id="wowslider-container1">
-				<div class="ws_images">
-					<ul>
-						<li><img src="./indesignImg/data1/images/01.jpg" alt="01" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_0" /></li>
-						<li><img src="./indesignImg/data1/images/02.jpg" alt="02" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_1" /></li>
-						<li><img src="./indesignImg/data1/images/03.jpg" alt="03" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_2" /></li>
-						<li><img src="./indesignImg/data1/images/04.jpg" alt="04" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_3" /></li>
-						<li><img src="./indesignImg/data1/images/05.jpg" alt="05" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_4" /></li>
-						<li><img src="./indesignImg/data1/images/06.jpg" alt="06" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_5" /></li>
-						<li><img src="./indesignImg/data1/images/07.jpg" alt="07" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_6" /></li>
-						<li><img src="./indesignImg/data1/images/08.jpg" alt="08" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_7" /></li>
-						<li><img src="./indesignImg/data1/images/09.jpg" alt="09" title="Vereinigtes Königreich - Geschichte"
-								id="wows1_8" /></li>
-						<li><img src="./indesignImg/data1/images/10.jpg" alt="10" title="Berliner Westhafen Klein Bild-Exkursion"
-								id="wows1_9" /></li>
-						<li><img src="./indesignImg/data1/images/11.jpg" alt="11" title="Berliner Westhafen Klein Bild-Exkursion"
-								id="wows1_10" /></li>
-						<li><img src="./indesignImg/data1/images/12.jpg" alt="12" title="Berliner Westhafen Klein Bild-Exkursion"
-								id="wows1_11" /></li>
-						<li><img src="./indesignImg/data1/images/13.jpg" alt="13" title="Berliner Westhafen Klein Bild-Exkursion"
-								id="wows1_12" /></li>
-						<li><img src="./indesignImg/data1/images/14.jpg" alt="14" title="Berliner Westhafen Klein Bild-Exkursion"
-								id="wows1_13" /></li>
-						<li><img src="./indesignImg/data1/images/15.jpg" alt="15" title="Berliner Westhafen Klein Bild-Exkursion"
-								id="wows1_14" /></li>
-						<li><img src="./indesignImg/data1/images/16.jpg" alt="16" title="Kalorientabelle Obstkonserven" id="wows1_15" />
-						</li>
-						<li><img src="./indesignImg/data1/images/17.jpg" alt="17" title="Obstsorten-Seitenweise" id="wows1_16" /></li>
-						<li><img src="./indesignImg/data1/images/18.jpg" alt="18" title="Obstsorten-Seitenweise" id="wows1_17" /></li>
-						<li><img src="./indesignImg/data1/images/18a.jpg" alt="18a" title="Obstsorten-Seitenweise" id="wows1_18" /></li>
-						<li><img src="./indesignImg/data1/images/19.jpg" alt="19" title="Obstsorten-Seitenweise" id="wows1_19" /></li>
-						<li><img src="./indesignImg/data1/images/19a.jpg" alt="19a" title="Obstsorten-Seitenweise" id="wows1_20" /></li>
-						<li><img src="./indesignImg/data1/images/20.jpg" alt="20" title="Haustiere" id="wows1_21" /></li>
-						<li><img src="./indesignImg/data1/images/21.jpg" alt="21" title="Canada" id="wows1_22" /></li>
-						<li><img src="./indesignImg/data1/images/22.jpg" alt="22" title="Canada" id="wows1_23" /></li>
-						<li><img src="./indesignImg/data1/images/23.jpg" alt="23" title="Küstenwelt" id="wows1_24" /></li>
-						<li><img src="./indesignImg/data1/images/24.jpg" alt="24" title="Küstenwelt-Dubai" id="wows1_25" /></li>
-						<li><img src="./indesignImg/data1/images/25.jpg" alt="25" title="Küstenwelt-Dubai" id="wows1_26" /></li>
-						<li><img src="./indesignImg/data1/images/27.jpg" alt="27" title="Küstenwelt-Dubai" id="wows1_28" /></li>
-					</ul>
-				</div>
-				<div class="ws_bullets">
-					<div>
-						<a href="#wows1_0" title="01"><img src="./indesignImg/data1/tooltips/01.jpg" alt="01" />1</a>
-						<a href="#wows1_1" title="02"><img src="./indesignImg/data1/tooltips/02.jpg" alt="02" />2</a>
-						<a href="#wows1_2" title="03"><img src="./indesignImg/data1/tooltips/03.jpg" alt="03" />3</a>
-						<a href="#wows1_3" title="04"><img src="./indesignImg/data1/tooltips/04.jpg" alt="04" />4</a>
-						<a href="#wows1_4" title="05"><img src="./indesignImg/data1/tooltips/05.jpg" alt="05" />5</a>
-						<a href="#wows1_5" title="06"><img src="./indesignImg/data1/tooltips/06.jpg" alt="06" />6</a>
-						<a href="#wows1_6" title="07"><img src="./indesignImg/data1/tooltips/07.jpg" alt="07" />7</a>
-						<a href="#wows1_7" title="08"><img src="./indesignImg/data1/tooltips/08.jpg" alt="08" />8</a>
-						<a href="#wows1_8" title="09"><img src="./indesignImg/data1/tooltips/09.jpg" alt="09" />9</a>
-						<a href="#wows1_9" title="10"><img src="./indesignImg/data1/tooltips/10.jpg" alt="10" />10</a>
-						<a href="#wows1_10" title="11"><img src="./indesignImg/data1/tooltips/11.jpg" alt="11" />11</a>
-						<a href="#wows1_11" title="12"><img src="./indesignImg/data1/tooltips/12.jpg" alt="12" />12</a>
-						<a href="#wows1_12" title="13"><img src="./indesignImg/data1/tooltips/13.jpg" alt="13" />13</a>
-						<a href="#wows1_13" title="14"><img src="./indesignImg/data1/tooltips/14.jpg" alt="14" />14</a>
-						<a href="#wows1_14" title="15"><img src="./indesignImg/data1/tooltips/15.jpg" alt="15" />15</a>
-						<a href="#wows1_15" title="16"><img src="./indesignImg/data1/tooltips/16.jpg" alt="16" />16</a>
-						<a href="#wows1_16" title="17"><img src="./indesignImg/data1/tooltips/17.jpg" alt="17" />17</a>
-						<a href="#wows1_17" title="18"><img src="./indesignImg/data1/tooltips/18.jpg" alt="18" />18</a>
-						<a href="#wows1_18" title="18a"><img src="./indesignImg/data1/tooltips/18a.jpg" alt="18a" />19</a>
-						<a href="#wows1_19" title="19"><img src="./indesignImg/data1/tooltips/19.jpg" alt="19" />20</a>
-						<a href="#wows1_20" title="19a"><img src="./indesignImg/data1/tooltips/19a.jpg" alt="19a" />21</a>
-						<a href="#wows1_21" title="20"><img src="./indesignImg/data1/tooltips/20.jpg" alt="20" />22</a>
-						<a href="#wows1_22" title="21"><img src="./indesignImg/data1/tooltips/21.jpg" alt="21" />23</a>
-						<a href="#wows1_23" title="22"><img src="./indesignImg/data1/tooltips/22.jpg" alt="22" />24</a>
-						<a href="#wows1_24" title="23"><img src="./indesignImg/data1/tooltips/23.jpg" alt="23" />25</a>
-						<a href="#wows1_25" title="24"><img src="./indesignImg/data1/tooltips/24.jpg" alt="24" />26</a>
-						<a href="#wows1_26" title="25"><img src="./indesignImg/data1/tooltips/25.jpg" alt="25" />27</a>
-						<a href="#wows1_27" title="26"><img src="./indesignImg/data1/tooltips/26.jpg" alt="26" />28</a>
-						<a href="#wows1_28" title="27"><img src="./indesignImg/data1/tooltips/27.jpg" alt="27" />29</a>
-					</div>
-				</div>
-				<div class="ws_shadow"></div>
-			</div>			
-			<!-- End bookSlider -->
-		</div>			
-	</div>
+      <button class="btn-slide prev"><span class="material-symbols-outlined">
+        arrow_back_ios
+        </span></button>
+      <button class="btn-slide next"><span class="material-symbols-outlined">
+        arrow_forward_ios
+        </span></i></button>
+    
+  </div>
+  <div class="dots-container">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+          <span class="dot" data-slide="3"></span>
+          <span class="dot" data-slide="4"></span>
+          <span class="dot" data-slide="5"></span>
+          <span class="dot" data-slide="6"></span>
+          <span class="dot" data-slide="7"></span>
+          <span class="dot" data-slide="8"></span>
+          <span class="dot" data-slide="9"></span>
+          <span class="dot" data-slide="10"></span>
+          <span class="dot" data-slide="11"></span>
+          <span class="dot" data-slide="12"></span>
+          <span class="dot" data-slide="13"></span>
+          <span class="dot" data-slide="14"></span>
+          <span class="dot" data-slide="15"></span>
+          <span class="dot" data-slide="16"></span>
+          <span class="dot" data-slide="17"></span>
+          <span class="dot" data-slide="18"></span>
+          <span class="dot" data-slide="19"></span>
+          <span class="dot" data-slide="20"></span>
+          <span class="dot" data-slide="21"></span>
+          <span class="dot" data-slide="22"></span>
+          <span class="dot" data-slide="23"></span>
+          <span class="dot" data-slide="24"></span>
+          <span class="dot" data-slide="25"></span>
+          <span class="dot" data-slide="26"></span>
+          <span class="dot" data-slide="27"></span>
+          <span class="dot" data-slide="28"></span>
+  </div>
 </div>
-<div class="footer">
-	<p>Copyright &copy; Dinara</p><p>2021</p> 
-</div>
-<script type="text/javascript" src="./indesignImg/engine1/jquery.js"></script>
-<script type="text/javascript" src="./indesignImg/engine1/wowslider.js"></script>
-<script type="text/javascript" src="./indesignImg/engine1/script.js"></script>
+  <div class="footer"><p>Copyright © DinIsk</p>
+    <p>2022</p></div> 
+</div></section>
+</main>
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/slide-show.js"></script>
 </body>
 </html>

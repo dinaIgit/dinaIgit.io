@@ -1,86 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>WebDesign</title>
-	<link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/picture.css">
-    <link rel="stylesheet" href="./css/navbar.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@200&display=swap"
-        rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	<link rel="stylesheet" type="text/css" href="./indesignImg/engine1/style.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebDesign</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
-<body>
 
-<div class="content">
-	<div class="header">
-        <div class="navbar">
-        <a href="./index.html">Home</a>	
-        <a href="./about.html">About me</a>	       
-        <div class="subnav">
-            <button class="subnavbtn">Portfolio ▿</button>
-            <div class="subnav-content">
-                <a href="./graphich.html">GraphicDesign</a>
-                <a href="./indesign.html">InDesign</a>
-                <a href="./webdesign.html">WebDesign</a>
-                <a href="./presentation.html">Presentation</a>
-                <a href="./projects.html">Projects</a>
+<body>
+  <div class="wrapper">
+<header class="header">
+    <div class="header__container">
+
+        <div class="header__menu">
+            <div class="menu__icon">
+                <span></span>
                 
             </div>
-        </div>
-        <div class="subnav">
-            <button class="subnavbtn">Games ▿</button>
-            <div class="subnav-content">
-                <a href="./guess.html">Guess the number</a>
-                <a href="./word.html">Guess the word</a>
-                <a href="./game.html">Minesweeper</a>
-            </div>
-        </div>
-        </div>
-    </div>
-
-	<div class="center">
-        <div class="web-sites">
-            <h3>WebDesign</h3>
-            <div class="row-web">
-            <div class="pictures">
-            <a href="https://dinaigit.github.io/mobile-first.io/#home" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/mobile-first.jpg" alt="picture"></a>
-            </div>
-            <div class="pictures">
-            <a href="https://dina-03.github.io/pushkins-tales.io/index.html" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/skazki.jpg" alt="picture"></a>
-            </div>
-            <div class="pictures">
-            <a href="https://dinaigit.github.io/aibolit.io/index.html" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/aibolit.png" alt="picture"></a>
-            </div>
-            <div class="pictures">
-            <a href="https://dinaigit.github.io/digitalFlow.io/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/diigitalFlow.png" alt="picture"></a>
-            </div>
-            <div class="pictures">
-            <a href="https://dinaigit.github.io/Traffico.io/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/Traffico.jpg" alt="picture"></a>
-            </div>
-            <div class="pictures">
-            <a href="https://dinaigit.github.io/LearnNewSkill.io/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/LearnNewSkill.jpg" alt="picture"></a>
-            </div>
-            <div class="pictures">
-            <a href="https://dinaigit.github.io/flowers/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/flowers.png" alt="picture"></a></div>
-            <div class="pictures">
-            <a href="https://dina-03.github.io/recipes.io/#" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/recipess.jpg" alt="pictures"></a></div>
-            <div class="pictures">
-            <a href=" https://dinaigit.github.io/newRobotic.io/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/robotic.png" alt="pictures"></a></div>
-            <!--  <div class="pictures">
-            <a href="https://dina-03.github.io/dnepro.io/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/dnepr.png" alt="pictures"></a></div> -->
-            <div class="pictures">
-            <a href="https://dina-03.github.io/elegant.io/" target="_blank" rel="noopener noreferrer"><img src="./webdesignImg/elegant.png" alt="pictures"></a>
-            </div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a data-goto=".page__section_1" href="index.html" class="menu__link">home</a></li>
+                    <li><a data-goto=".page__section_2" href="index.html#about" class="menu__link">about</a></li>
+                    <li><a data-goto=".page__section_3" href="index.html#portfolio" class="menu__link">portfolio</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                            <li>
+                                <a href="graphicdesign.html" class="menu__sub-link">GraphicDesign</a>
+                            </li>
+                            <li>
+                                <a href="indesign.html" class="menu__sub-link">InDesign</a>
+                            </li>
+                            <li>
+                                <a href="webdesign.html" class="menu__sub-link">WebDesign</a>
+                            </li>
+                            <li>
+                                <a href="projects.html" class="menu__sub-link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="presentations.html" class="menu__sub-link">Presentations</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a data-goto=".page__section_4" href="index.html#games" class="menu__link">games</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                            <li>
+                                <a href="gamenumber.html" class="menu__sub-link">Guess the number</a>
+                            </li>
+                            <li>
+                                <a href="gameword.html" class="menu__sub-link">Guess the word</a>
+                            </li>
+                            <li>
+                                <a href="minesweeper.html" class="menu__sub-link">Minesweeper</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>        <a href="mailto: dingrafikweb@gmail.com" class="header__mail">Contact me <span class="material-symbols-outlined">
+                        mail
+                        </span></a></li>
+                </ul>
+            </nav>
         </div>
     </div>
-			
-	</div>
-</div>
-<div class="footer">
-	<p>Copyright &copy; Dinara</p><p>2021</p> 
-</div>
+</header>    <main class="page">
+      <section class="page__webdesign">
+<div class="webdesign__content">
+  <div class="title lightH2"><h2>WebDesign</h2></div>
+  <div class="wd__article">
+  <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/Jazz.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">The Jazz Territory of Serik Iskakov (Portfolio)</h2>
+          <p class="card__snippet">Business Card of a Jazz Saxophonist Musicant</p>
+          <a href="https://dinaigit.github.io/seriks-portfolio.io/index.html" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/mobile-first.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Layout-Mobile first / 'Thinking globally'</h2>
+          <p class="card__snippet">This site is primarily adapted for mobile devices</p>
+          <a href="https://dinaigit.github.io/mobile-first.io/#home" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+  
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/skazki.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Travel through Pushkin's fairy Tales</h2>
+          <p class="card__snippet">Animated site for children with fairy Tales Alexander Pushkin</p>
+          <a href="https://dina-03.github.io/pushkins-tales.io/index.html" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/robotic.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Simple website - Robotic</h2>
+          <br><br>
+          <p class="card__snippet">The Main Idea of this site is to show a beautiful Background</p>
+          <a href="https://dinaigit.github.io/newRobotic.io/" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/diigitalFlow.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Simple Website / Web Application</h2>
+          <p class="card__snippet">This site offers a variety of card design</p>
+          <a href="https://dinaigit.github.io/digitalFlow.io/" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/aibolit.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Multi-page website for the Veterinary Clinic</h2>
+          <p class="card__snippet">A 24-hour veterinary clinic offers a variety of services for pets.</p>
+          <a href="https://dinaigit.github.io/aibolit.io/index.html" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/LearnNewSkill.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Learn New Skill Gain More   Education</h2>
+          <p class="card__snippet">eLearn is an interesting platform that will teach you in more an interactive way</p>
+          <a href="https://dinaigit.github.io/LearnNewSkill.io/" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/Traffico.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Traffic resolution consultant / Trafico </h2>
+          <p class="card__snippet">Website for a business shipping company, as well as answers to many questions on commercial traffic for the transportation of goods.</p>
+          <a href="https://dinaigit.github.io/Traffico.io/" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/elegant.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Website with various animation effects / Elegant</h2>
+          <p class="card__snippet">The Idea of this Website is to show different animation effects for text or pictures.</p>
+          <a href="https://dina-03.github.io/elegant.io/" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="card border-white">
+      <figure class="card__thumb">
+        <img src="img/webdesignImg/flowers.jpg" alt="Picture" class="card__image">
+        <figcaption class="card__caption">
+          <h2 class="card__title">Simple website / Flowers</h2>
+          <p class="card__snippet">Top branding
+            services that support marketing efforts.</p>
+          <a href="https://dinaigit.github.io/flowers/" class="card__button" target="_blank">Visit the site</a>
+        </figcaption>
+      </figure>
+    </div>  
+  </div>
+</div>      </section>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
