@@ -59,6 +59,9 @@
                             <li>
                                 <a href="minesweeper.html" class="menu__sub-link">Minesweeper</a>
                             </li>
+<!--                             <li>
+                                <a href="gametetris.html" class="menu__sub-link">Tetris</a>
+                            </li> -->
                         </ul>
                     </li>
                     <li>        <a href="mailto: dingrafikweb@gmail.com" class="header__mail">Contact me <span class="material-symbols-outlined">
@@ -76,13 +79,13 @@
 
   <div class="game-box">
     <p id="message">Guess the word by the letters.<br>Select the language and press <b>Start</b>:</p>
-<form action="#" id="language"> 
-  <input type="radio" id="eng" name="language" checked="checked" class="word">
-  <label for="eng">English</label>
-  <input type="radio" id="de" name="language" class="word">
-  <label for="de">German</label>
-  <input type="radio" id="ru" name="language" class="word">
-  <label for="ru">Russia</label>
+<form action="#" id="language">
+  <div class="lang-box">  <input type="radio" id="eng" name="language" checked="checked" class="word">
+    <label class="engl" for="eng">English</label></div>
+  <div class="lang-box">  <input type="radio" id="de" name="language" class="word">
+    <label class="deu" for="de">German</label></div>
+  <div class="lang-box">  <input type="radio" id="ru" name="language" class="word">
+    <label class="rus" for="ru">Russia</label></div>
 </form>
 
 <p id="wordState" class="word-state"></p>
