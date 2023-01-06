@@ -1049,15 +1049,15 @@ font-family: 'Dosis', sans-serif; */
 }
 
 .game__item {
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   position: relative;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 .game__item img {
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   border: 10px solid #008d7d;
   border-radius: 50%;
   _-webkit-animation: 20s linear infinite rotate;
@@ -1070,8 +1070,8 @@ font-family: 'Dosis', sans-serif; */
   background-color: #eaeaea;
   position: absolute;
   padding: 25px;
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   opacity: 0;
   top: 0;
   left: 0;
@@ -1096,11 +1096,11 @@ font-family: 'Dosis', sans-serif; */
   cursor: pointer;
 }
 .item-content h3 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   color: #008d7d;
   padding: 5px;
-  margin: 30px 0 10px;
+  margin: 15px 0 10px;
 }
 .item-content p {
   display: -webkit-box;
@@ -1114,7 +1114,7 @@ font-family: 'Dosis', sans-serif; */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   color: #000;
   font-weight: 500;
 }
