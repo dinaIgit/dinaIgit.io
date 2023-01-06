@@ -33,7 +33,7 @@ let tryCount=0,
 
     function gameOver(isGuessed=false){
       if(isGuessed){
-        return gameState('This is the correct Answer! <br> You win!!! &#128522');
+        return gameState(`Number <b>${guessNumber}</b> is the correct Answer!  <br> You win!!! &#128522`);
       }else if(tryCount==MAX_TRY_COUNT){
       return  gameState(`<p class='lost'>You lost &#128533 <br> correct answer ${guessNumber}</p>`);
       }else{
